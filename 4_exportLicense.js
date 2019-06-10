@@ -8,7 +8,7 @@ contract('exportLicense',async(accounts)=>{
         const exporter = accounts[0];
         const id = 1;
         const exporterName = "Pruthvi";
-        const description = "Meat";
+        const description = "Shoes";
 
         await instance.setLicense(id,exporter,exporterName,description);
 
